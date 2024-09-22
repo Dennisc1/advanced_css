@@ -1,0 +1,50 @@
+*{
+  color: black;
+}
+header{
+  text-align: center;
+  font-weight: bold;
+  font-size: 4rem;
+  border-style: dotted;
+  padding: 2rem 0rem;
+  background-color: turquoise;
+  border-radius: 8px;
+  text-shadow: 1px 1px 8px white;
+}
+body{
+  background-color: #5899E2;
+  
+}
+section{
+  width: 45%;
+  font-size: 1.25rem;
+  background: linear-gradient(to bottom, #65AFFF, pink);
+}
+.information{
+  float: left;
+}
+.jet{
+  float: right;
+}
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+  overflow: auto;
+}
+section img{
+  width: 40vw;
+  filter: blur(5px);
+}
+section img:hover{
+  filter: blur();
+  transform: rotate(10deg);
+  transition-duration: 2s;
+}
+footer{
+  text-align: center;
+  border-style: dashed;
+  padding: 1rem 1rem;
+  border-radius: 30px;
+  background: linear-gradient(90deg, lightblue, maroon)
+}
